@@ -10,8 +10,21 @@
     <title>squat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <style>
+        h1 {font-size: 14vw}
+        img {max-width: 70%}
+        @media(min-width:500px){
+            h1 {font-size: 8vw}
+            img {max-width: 40%}
+        }
+        @media(min-width:800px){
+            h1 {font-size: 4em}
+            img {max-width: 20em}
+        }
+    </style>
 </head>
-<body>
-    <img src="squat.jpeg" style="display:block;max-width:100%"/>
+<body style="display:flex;align-items:center;flex-direction:column">
+    <h1 style="line-height:1;margin:0;font-style:italic;font-weight:bolder;font-family:sans">squat</h1>
+    <img src="squat.jpeg"/>
 </body>
 </html>
